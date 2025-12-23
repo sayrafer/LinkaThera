@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkaThera</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #7cb9e8;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #FFFFF0;
+    }
+
+    p {
+      font-size: 18px;
+      color: #00008b;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    select, input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 8px;
+      width: 80%;
+      max-width: 300px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to LinkaThera</h1>
+
+  <p>
+    Connecting people with Occupational, Physical,
+    and Speech Therapists who speak their language.
+  </p>
+
+  <!-- Language Section -->
+  <div class="section">
+    <h2>Select Your Language</h2>
+
+    <select>
+      <option>English</option>
+      <option>Spanish</option>
+      <option>Arabic</option>
+      <option>Mandarin</option>
+      <option>French</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <!-- Therapist Search Section -->
+  <div class="section">
+    <h2>Find a Therapist</h2>
+
+    <input type="text" placeholder="Enter city or zip code">
+
+    <select>
+      <option>Occupational Therapy (OT)</option>
+      <option>Physical Therapy (PT)</option>
+      <option>Speech-Language Pathology (SLP)</option>
+    </select>
+
+    <br>
+    <button>Search</button>
+  </div>
+
+</body>
+</html>
